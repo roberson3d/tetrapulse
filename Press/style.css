@@ -1,0 +1,190 @@
+/* Global ============================================= */
+
+body {
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #ffffff;
+	background-image: -webkit-linear-gradient(top, #0d0a14 25%, #3d3d59 100%);  
+    background-image: -moz-linear-gradient(top, #0d0a14 50%, #3d3d59 100%);  
+    background-image: -ms-linear-gradient(top, #0d0a14 0%, #3d3d59 100%);  
+    background-image: -o-linear-gradient(top, #0d0a14 0%, #3d3d59 100%);  
+    background-image: linear-gradient(top, #0d0a14 0%, #3d3d59 100%);
+}
+
+img {max-width: 100%;}
+
+video {margin-top:100px;}
+
+#content {text-align:center; width:100%;}
+
+/* Highlight color ===== */
+::selection { background: #9ad9e4; color: #fff; } /* Safari/Opera/Chrome */
+::-moz-selection { background: #9ad9e4; color: #fff; } /* Mozilla Firefox */
+
+
+/* ==== Typography ============================================= */
+
+p {font-size: 1em;
+	color:#9ad9e4;
+	font-weight: 400;}
+
+a:link {color: #1f1f2d; text-decoration: none;}
+a:hover {color: #1f1f2d; text-decoration: none;}
+a:visited {color: #eeeeee; text-decoration: none;}
+
+
+h1, h2, h3, h4, h5, h6 {display:inline;}
+h1 {font-size: 3.7em; line-height: 3.5em;}
+h2 {font-size: 3.2em; line-height: 1em;}
+h3 {font-size: 2.7em; line-height: 1.5em;}
+h4 {font-size: 2.2em; line-height: 2.0em;}
+h5 {font-size: 1.7em; line-height: 1.5em;}
+h6 {font-size: 1.2em; line-height: 1.0em;}
+
+
+
+/* ==== Menu/Top Bar/Logo ============================================= */
+
+.menu {
+	width:100%; 
+	height:170px; 
+	background-image:url('../images/upsidedown-01.png');
+	background-size:cover;
+	background-position:top;
+	background-repeat:repeat-x;
+	margin-bottom:0px;
+}
+#logo {
+	text-align: center;
+	margin-top: 10px;
+	width:100%;
+	display:inline;
+
+}
+
+
+
+/* ==== Sections ============================================= */
+
+.section{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	padding:0;
+	text-align:center;}
+
+
+/* section 1 =========== */
+#section1 {margin-top:0px; padding-top:10px; padding-bottom:100px; position: relative;}
+#section1 h3 {color:#9ad9e4;}
+#section1 h5 {color: #fff; padding-bottom:5px;}
+
+/* section 2 =========== */ 
+#section2{
+	background: #3d3d59 url('../images/Capture2b.jpg') left top; 
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	text-align:center;
+	color:#ffffff;
+	padding: 50px 0 50px 0;
+	margin:50px 0 50px 0;
+	}
+	
+#section2 h1, h2 {color: #ffffff;  }
+
+
+/* section 3  =========== */
+#section3 {position: relative;}
+#section3 h1 {color:#9ad9e4;}
+#section3 h2 {padding-bottom:20px;}
+
+/* section 4  =========== */
+#section4{
+	background: #0d0a14 url('../images/poster.png') left top; 
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+	text-align:center;
+	padding: 50px 0 50px 0;
+	margin:50px 0 50px 0;
+}
+
+#section4 h2, h5 {color:#ffffff;}
+
+#section5, #section6, #section7 {padding: 50px 0 50px 0;}
+
+
+
+/* ===== misc hacks :) ============================================= */
+
+	#presskit {border-radius:25px; background:#9ad9e4; padding:10px; margin: 0 20% 0 20%;}
+	#presskit:hover {background:#0d0a14; color:#9ad9e4;}
+
+	/* Style for the subscribe to newsletter form ==== */
+
+	.requiredemail {}
+	.subscribe {
+	border-radius:15px; 
+	border:0px; 
+	background:#9ad9e4; 
+	font-family: Exo, sans-serif;
+	font-weight: 600;
+	padding:7px 10px 7px 10px; 
+	margin: 10px 0 10px 0; }
+	
+	
+	
+	
+	/* Keeping Jay's emphasis from original website slider */
+		#emphasis {color:#9ad9e4; display:inline;}
+
+		#steam {color:#00CC00; display:inline;}
+		#steam:hover {color:#339933; display:inline;}
+
+
+
+
+
+/* ===== MEDIA QUERIES ============================================= */ 
+
+/* Tablet ===================  */
+
+
+@media screen and (max-width: 1024px) {
+
+#section8 {padding:0px; margin-bottom:100px;}
+	
+	
+
+	#presskit {margin: 0 10% 0 10%;}
+
+}
+
+
+
+/* Mobile  ===================  */
+
+@media screen and (max-width: 480px) {
+
+		
+	
+	#section8 {padding:0px; margin-top:-50px;}
+
+	
+		
+		/*h1 {font-size: 3.7em; line-height: 3.5em;}*/
+		/*h2 {font-size: 3.2em; line-height: 1em;}*/
+		h2 {font-size: 2.7em; line-height: 1.1em;}
+		h3 {font-size: 1.8em; line-height: 1.3em;}
+		/* h5 {font-size: 1.7em; line-height: 1.5em;}*/
+		h5 {font-size: 1.2em; line-height: 1.1em;}
+
+}
+
+
+
+

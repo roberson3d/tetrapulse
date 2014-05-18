@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" value="IE=9">
+<title>Tetrapulse Presskit</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="validation.js"></script>
+<script>
+	$(window).load( function() {
+		checkVis("factsheet");
+		checkVis("description");
+		checkVis("history");
+		checkVis("features");
+		checkVis("trailers");
+		checkVis("images");
+		checkVis("logo");
+		checkVis("credits");
+		checkVis("contact");
+	} );
+
+	$(window).scroll( function() {
+		checkVis("factsheet");
+		checkVis("description");
+		checkVis("history");
+		checkVis("features");
+		checkVis("trailers");
+		checkVis("images");
+		checkVis("logo");
+		checkVis("credits");
+		checkVis("contact");
+	} );
+
+	function checkVis(elem)
+	{
+		if( isVis( "#"+elem ) ) $("#m-"+elem).css("color","#000"); else $("#m-"+elem).css("color","#666");
+	}
+
+	function isVis(elem)
+	{
+		var docViewTop = $(window).scrollTop();
+		var docViewBottom = docViewTop + $(window).height();
+	
+		var elemTop = $(elem).offset().top;
+		var elemBottom = elemTop + $(elem).height();
+	
+		return ( (elemBottom >= docViewTop && elemBottom <= docViewBottom) || (elemTop <= docViewBottom && elemTop >= docViewTop) || (elemTop <= docViewTop && elemBottom >= docViewBottom) );
+	}
+</script>
+
+<base target="_blank" />
+
+</head>
+
+<body>
+				<script type="text/javascript">
+            
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-39061364-2']);
+              _gaq.push(['_trackPageview']);
+
+            
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+            
+            </script>            	
+            
+<!-- Page start -->
+<div id="container">
+
+    <!-- Navigation start -->
+    <div id="navigation">
+        <p><h1 id="game-title">Tetrapulse</h1>
+        <strong><a href="http://theamiable.com/" target="_self">theamiable.com</a></strong></p>
+        <br/>
+        <ul>
+            <li><a href="#factsheet" id="m-factsheet" target="_self">Factsheet</a></li>
+            <li><a href="#description" id="m-description" target="_self">Description</a></li>
+            <li><a href="#history" id="m-history" target="_self"> The Amiable</a></li>
+            <li><a href="#features" id="m-features" target="_self">Features</a></li>
+            <li><a href="#trailers" id="m-trailers" target="_self">Videos</a></li>
+            <li><a href="#images" id="m-images" target="_self">Images</a></li>
+            <li><a href="#logo" id="m-logo" target="_self">Logo & Icon</a></li>
+            <li><a href="#quotes" id="m-quotes" target="_self">Selected Articles</a></li>
+			<li><a href="#credits" id="m-credits" target="_self">Team</a></li>
+            <li><a href="#contact" id="m-contact" target="_self">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <!-- Header -->
+        <img src="pressImages/header.png" id="header" width="960" />        
+        <!--div id="Kickstarter">
+        
+        </div-->
+    
+        <!-- Factsheet start -->
+        <div id="factsheet">
+        
+        <h2>Factsheet</h2>
+        
+        <!-- Developer information -->
+        <p><strong>Developer:</strong><br/>
+        <a href="">The Amiable</a><br/>
+        Based in Chicago, Illinois<br/></p>
+        
+        <!-- Release date -->
+        <p><strong>Founding date:</strong><br/>
+        January 1, 2013<br/></p>
+                
+        <!-- Website -->
+        <p><strong>Website:</strong><br/>
+        <a href="http://theamiable.com/">theamiable.com/</a><br/></p>
+        <!-- Website -->
+        <p><strong>Press / Business Contact:</strong><br/>
+        <a href="mailto:info@theamiable.com">info@theamiable.com</a><br/></p>        
+        <!-- Pricing -->
+        <p><strong>Social:</strong><br/>
+        <a href="http://twitter.com/amiablegames">The Amiable on Twitter</a><br/><a href="http://facebook.com/tetrapulse">Facebook</a><br/><a href="http://kickstarter.com/projects/575525637/tetrapulse">Kickstarter</a><br/>        </p>
+
+        <!-- Platforms -->
+        <p><strong>Platforms:</strong><br/>
+			<!--if( count($platforms) > 0 )
+			{
+				echo('<p><strong>Platforms:</strong><br/>');-->
+		 
+    	<a>PC, Mac, Linux</a><br/>				
+				<!--echo('</p>');-->
+        </p>
+        
+        </div>
+        <!-- Description start -->
+        <div id="right-of-factsheet">
+            <div id="description">
+           
+            <h2>Tetrapulse Description</h2>	
+			<p>Tetrapulse is a two to four player, single screen co-op game where you and your friends join forces to battle a swarm of alien robo-bugs using the only weapon you have left: your own life-force. Every shot of your laser drains your health as you work together to protect the Heartstone, an ancient battery that powers you and your friends.</p>
+			</div>
+            
+            <!-- History start -->
+            <div id="history">      
+			<h2>The Amiable Background</h2>
+			<strong>Nice. Pleasent even.</strong>
+			<p>A Chicago based independent game studio aimed at reinventing what it means to sit down and play games among friends and strangers alike. With our combined powers in break dancing, fashion design, acoustic guitar, and pole vaulting we banded together to make video games. We use multiplayer games as a tool for making personal connections, growing communities, and to bring the virtual closer to reality.</p>
+			</div>
+            
+            <!-- Features start -->
+            <div id="features">
+            <h2>Features</h2>
+			<ul>
+			<li>Single screen, local and network multiplayer for two to four players</li>
+			<li>Balance health and ammo as a single resource</li>
+			<li>A plethora of different enemy types</li>
+			<li>Collective movement</li>
+			<li>High second to second action</li>
+			<li>Competitive leaderboards</li>
+			<li>Art style that blends nature and technology</li>
+			</ul></div></div>
+        
+		<!-- Clear -->
+        <div class="clear" />
+                
+        <!-- Trailers start -->
+        <div id="trailers">
+		<h2>Videos</h2>
+        <p><strong>Tetrapulse Announcement Trailer</strong> <a href="http://www.youtube.com/watch?v=a5_sUVy-Jo8">YouTube</a><iframe width="720" height="396" src="http://www.youtube.com/embed/a5_sUVy-Jo8" frameborder="0" allowfullscreen></iframe></p>        </div>
+        
+		<!-- Clear -->
+        <div class="clear" />
+
+        <!-- Screenshots start -->
+        <div id="images">
+        <h2>Images</h2>
+        <a href="pressImages/images.zip">
+        <div id="media-download">download all screenshots &amp; photos as .zip (5MB)
+        </div></a>
+        
+        <a href="pressImages/tetrapulse05.png">
+        <div class="preview-wrapper"><img class="preview" src="pressImages/tetrapulse05.png" alt="tetrapulse05.png" />
+        </div></a>
+        <a href="pressImages/tetrapulse04.png">
+        <div class="preview-wrapper"><img class="preview" src="pressImages/tetrapulse04.png" alt="tetrapulse04.png" />
+        </div></a>
+        <a href="pressImages/tetrapulse03.png">
+        <div class="preview-wrapper"><img class="preview" src="pressImages/tetrapulse03.png" alt="tetrapulse03.png" />
+        </div></a>
+        <a href="pressImages/tetrapulse02.png">
+        <div class="preview-wrapper"><img class="preview" src="pressImages/tetrapulse02.png" alt="tetrapulse02.png" />
+        </div></a>
+        <a href="pressImages/tetrapulse01.png">
+        <div class="preview-wrapper"><img class="preview" src="pressImages/tetrapulse01.png" alt="tetrapulse01.png" />
+        </div></a>
+        
+        <p style="clear:both">There are far more images available for Tetrapulse, but these are the ones we felt would be most useful to you. If you have specific requests, please do <a href="#contact" target="_self">contact us</a>!</p>        
+        </div>
+        
+		<!-- Clear -->
+        <div class="clear" />
+
+        <!-- Logo start -->
+        <div id="logo">
+        <h2>Logo & Icon</h2>
+        <a href="pressImages/logoAmiable.png">
+        <img src="pressImages/logoAmiable.png" alt="logoAmiable.png" />
+        </a>
+        <a href="pressImages/logoTetrapulse.png">
+        <img src="pressImages/logoTetrapulse.png" alt="logoTetrapulse.png" />
+        </a>
+        </div>
+        
+		<!-- Clear -->
+        <div class="clear" />
+        
+        
+        <!-- Quote start -->
+        <div id="quotes">
+        <h2> Selected Articles</h2>
+        <ul>
+       	<li>"Tetrapulse looks like it might be rather wonderful" <br/><cite>- Jim Rossignol, <a href="http://rockpapershotgun.com/2013/09/10/tetrapulse-certainly-is-strange-and-pretty/">Rock, Paper, Shotgun</a></cite></li>
+		<li>"Beautifully strange and decidedly multiplayer" <br/><cite>- Konstantinos Dimopoulos, <a href="http://indiegames.com/2013/09/indies_publishing_indies_publi.html">indiegames.com</a></cite></li>
+		<li>"More interesting than the standard run-and-gun cooperative game" <br/><cite>- Andrew Groen, <a href="http://penny-arcade.com/report/article/real-co-op-what-borderlands-gets-wrong-and-how-tetrapulse-is-trying-to-fix">penny-arcade.com</a></cite></li>
+		<li>"The Amiable has achieved an elevation in teamwork building" <br/><cite>- Jose Cardoso, <a href="http://beefjack.com/news/tetrapulse-to-avoid-loose-chains-with-co-op-drive-will-remain-single-screen-during-online-play">beefjack.com</a></cite></li>
+		<li>"Where the scary robot aliens are many and the resources are few" <br/><cite>- Andras Neltz, <a href="http://kotaku.com/the-robo-bug-aliens-are-coming-time-to-get-out-the-las-1200396702">kotaku.com</a></cite></li>
+		</ul></div>
+        
+		<!-- Clear -->
+        <div class="clear" />
+                
+        
+        <!-- Credits -->
+        <div id="credits">
+        <h2>Team & Repeating<br/>Collaborators</h2>
+        <p><strong>David Finseth</strong><br/>
+        <a href="http://davidfinseth.com/">Producer, Art</a></p>
+        <p><strong>David Laskey</strong><br/>
+        <a href="http://twitter.com/david_laskey/">Programming, Sound Design</a></p>
+        <p><strong>Jorge Murillo</strong><br/>
+        <a href="http://furiousjorge.com/">Design</a></p>
+        <p><strong>Mark Nauta</strong><br/>
+        <a href="http://mark-nauta.com/">Design, Programming</a></p>
+        <p><strong>Ricky Roberson</strong><br/>
+        <a href="http://rickyroberson.com/">Tech-Art, Programming</a></p>
+        <p><strong>Peter Sheff</strong><br/><
+        a href="http://petersheff.com/">Art</a></p>        </div>
+        
+        <!-- Contact -->
+        <div id="contact">
+        <h2>Contact</h2>
+        <p><strong>Inquiries</strong><br/>
+        <a href="mailto:info@theamiable.com">info@theamiable.com</a>
+        <p><strong>Twitter</strong><br/>
+        <a href="http://twitter.com/amiablegames">twitter.com/amiablegames</a>
+        <p><strong>Facebook</strong><br/>
+        <a href="http://facebook.com/Tetrapulse">facebook.com/Tetrapulse</a>
+        <p><strong>Web</strong><br/><a href="http://theamiable.com">theamiable.com</a>
+        </div>
+        
+		<!-- Clear -->
+        <div class="clear" />
+
+		<p class="credits"><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="sheet.php?p=credits">these fine folks</a></p>
+    </div>
+</div>
+</body>
+</html>
+
